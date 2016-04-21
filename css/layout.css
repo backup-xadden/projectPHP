@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@font-face {
+    font-family: thin;
+    src: url(gobler.otf);
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	background: url(../img/indexWallpaper.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#logo {
+	position: absolute;
+	top: 70px;
+	left:4%;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#logo img {
+	position: relative;
+	width: 30px;
+	left: 0px;
+	top: 6px;
+	margin-right: 10px;
+}
+
+#logo span a {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+
+.menu {
+	padding: 35px 15px 35px 15px;
+	position: absolute;
+	right:4%;
+	top: 70px;
+	background-color: white;
+	text-decoration: none;
+	color:black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	transition-duration: 0.2s;
+}
+
+.menu:hover {
+	background-color: black;
+	color: white;
+}
+
+.card span {
+	position:relative;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	top:350px;
+	left:4%;
+	padding: 20px 60px 20px 60px;
+	margin-bottom: 10px;
+	margin-left: -20px;
+}
+
+.whitespan {
+	background-color: white;
+	color:black;
+	font-size: 25px;
+}
+
+.blackspan {
+	background-color: black;
+	color:white;
+	transition-duration: 0.2s;
+	font-size: 25px;
+}
+
+.blackspan:hover {
+	background-color: white;
+	color:black;
+}
+
+.score {
+	margin-top: 20px;
+	padding: 15px 35px 15px 35px;
+	font-size: 15px;
+	background-color: black;
+	color:white;
+}
